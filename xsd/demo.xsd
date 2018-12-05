@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="DemoStubRequest" type="DemoStubRequest"/>
+
+<xs:complexType name="DemoStubRequest">
+	<xs:sequence>
+		<xs:element name="planetId" type="xs:string" minOccurs="0"/> 
+		<xs:element name="planetName" type="xs:string" minOccurs="0"/>
+		<xs:element name="planetCreatedDate" type="xs:date" minOccurs="0"/>
+		<xs:element name="updatedDatetime" type="xs:dateTime" minOccurs="0"/>
+		<xs:element name="classType" type="xs:string" minOccurs="0"/>
+		<xs:element name="advancementLevel" type="xs:string" minOccurs="0"/>
+		<xs:element name="primarySpecies" type="xs:string" minOccurs="0"/>
+		<xs:element name="population" type="xs:string" minOccurs="0"/>
+		<xs:element name="language" type="xs:string" minOccurs="0"/>
+		<xs:element name="climate" type="xs:string" minOccurs="0"/>
+		<xs:element name="notes" type="xs:string" minOccurs="0"/>
+  	</xs:sequence>
+</xs:complexType>
+
+</xs:schema> 
